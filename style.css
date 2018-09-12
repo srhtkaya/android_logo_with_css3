@@ -1,5 +1,5 @@
 div {
-  margin: o;
+  margin: 0;
   padding: 0;
 }
 
@@ -12,6 +12,15 @@ div div {
   height: 404px;
   width: 334px;
   margin: 100px auto;
+  -moz-transition: -moz-transform 1s;
+  -webkit-transition: -webkit-tranform 1s;
+  transition: transform 1s;
+}
+
+.android:hover {
+  transform: translate(50px, 0);
+  -moz-transform: translate(50px, 0);
+  -webkit-transform: translate(50px, 0);
 }
 
 .head {
